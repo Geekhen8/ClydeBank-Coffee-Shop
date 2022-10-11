@@ -61,7 +61,7 @@ img { border-style: none; }
 /* Header */
 
 header { 
-    background: Sienna; 
+    background: rgb(146, 53, 10); 
     padding: 10px;
 }
 
@@ -79,10 +79,10 @@ header {
     vertical-align: middle;
 }
 
-nav { background: #262d33; }
+nav { background: rgb(76, 33, 3); }
 
 nav li a { 
-    color: #AFB2B6;
+    color: #fff;
     display: inline-block;
     padding: 10px 10px;
 }
@@ -92,7 +92,7 @@ nav li a {
 /* Footer */
 
 footer {
-    background: #333;
+    background: rgb(76, 33, 3);
     color: #fff;
     padding: 10px;  
     height: 100px;
