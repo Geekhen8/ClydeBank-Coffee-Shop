@@ -64,7 +64,7 @@ img { border-style: none; }
     top: 0;
      right: 0;
      left: 0;
-     background-color: yellow;
+     background-color: rgb(255, 255, 0);
     text-align: center;
     padding-top: 3px;
     padding-bottom: 3px;
@@ -90,12 +90,22 @@ header {
     vertical-align: middle;
 }
 
-nav { background: rgb(76, 33, 3); }
-
-nav li a { 
-    color: #fff;
-    display: inline-block;
-    padding: 10px 10px;
+nav { 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    list-style-type: none;
+    text-align: center;
+    margin: 3px;
+    padding: 3px;
+    overflow: hidden;
+    background-color:  rgb(76, 33, 3); }
+ li{float: left;}
+ li a { 
+    display: ;
+    color: navajowhite;
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: navajowhite;
 }
 
 /* End Header */
@@ -104,7 +114,7 @@ nav li a {
 
 footer {
     background: rgb(76, 33, 3);
-    color: #fff;
+    color: navajowhite;
     padding: 10px;  
     height: 100px;
 }
