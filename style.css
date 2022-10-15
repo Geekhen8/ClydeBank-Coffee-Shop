@@ -5,6 +5,17 @@ html {
     -webkit-text-size-adjust: 100%; /* 2 */
 }
 
+#top-announcement {
+    position: relative; 
+    top: 0;
+     right: 0;
+     left: 0;
+     background-color: yellow;
+    text-align: center;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    color: #333;
+}
 body {
     font-size: 16px;
     font-family: "Arial", Helvetica, sans-serif;
