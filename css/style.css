@@ -139,6 +139,14 @@ footer a { color: cornsilk; }
 /* End Home Page Content */
 
 /* Page Content */
+::placeholder { color: blue;
+font-style: italic;
+}
+
+/* End Page Content */
+
+
+/* Page Content */
 
 .event-item {
     margin-bottom: 25px;
