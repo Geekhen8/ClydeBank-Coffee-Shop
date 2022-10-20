@@ -133,7 +133,7 @@ footer a { color: cornsilk; }
 .menu-item.additional-items .item-inner ul {
     display: inline-block;
     width: 50%;
-    float: left;
+    float:left;
 }
 
 /* End Home Page Content */
@@ -154,3 +154,102 @@ font-style: italic;
 }
 
 /* End Page Content */
+
+/* Spites */
+
+.sprite-palette { 
+    display: block;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    border: none;
+    background:url('../images/sprite.png') 0 0; 
+} 
+
+.sprite-guitar {
+    display: block;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    border: none;
+    background: url('../images/sprite.png') -40px 0;
+}
+
+.sprite-mask { 
+    display: block;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    border: none;
+    background: url('../images/sprite.png') -80px 0;
+}
+
+.sprite-controller {
+    display: block;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    border: none;
+    background: url('../images/sprite.png') -120px 0;
+}
+
+.sprite-mic{display: block;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    border: none;
+    background: url('../images/sprite.png') -160px 0;
+}
+
+.sprite-quill {
+    display: block;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    border: none;
+    background: url('../images/sprite.png') -200px 0;
+}
+
+.sprite-cup{
+    display: block;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    border: none;
+    background: url('../images/sprite.png') -240 0;
+}
+
+.sprite-utensils {
+    display: block;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    border: none;
+    background: url('../images/sprite.png') -280 0;
+}
+
+.sprite-milk {
+    display: block;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    border: none;
+    background: url('../images/sprite.png') -320 0;
+}
+.sprite-clydebank {
+    display: block;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    border: none;
+    background: url('../images/sprite.png') -360 0;
+}
+
+.sprite-bigcup {
+    display: block;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    border: none;
+    background: url('../images/sprite.png') -400 0;
+}
