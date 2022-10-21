@@ -64,7 +64,7 @@ img { border-style: none; }
     top: 0;
      right: 0;
      left: 0;
-     background-color: rgb(255, 255, 0);
+     background-color: rgb(0, 162, 255);
     text-align: center;
     padding-top: 3px;
     padding-bottom: 3px;
@@ -72,7 +72,8 @@ img { border-style: none; }
 }
 
 header { 
-    background: rgb(146,53,10);
+    background-color:rgb(237, 149, 108);
+    background-image: radial-gradient(rgb(237, 126, 75),rgb(40, 18, 2));
     padding: 10px;
 }
 
@@ -101,7 +102,7 @@ nav {
     background-color:  rgb(76, 33, 3); }
  li{float: left;}
  li a { 
-    display: ;
+    display:inline-flexbox ;
     color: navajowhite;
     text-align: center;
     padding: 10px 12px;
@@ -116,7 +117,7 @@ footer {
     background: rgb(76, 33, 3);
     color: navajowhite;
     padding: 10px;  
-    height: 100px;
+    height: 120px;
 }
 
 footer a { color: cornsilk; }
@@ -131,7 +132,7 @@ footer a { color: cornsilk; }
 }
 
 .menu-item.additional-items .item-inner ul {
-    display: inline-block;
+    display: block;
     width: 50%;
     float:left;
 }
@@ -158,7 +159,7 @@ font-style: italic;
 /* Spites */
 
 .sprite-palette { 
-    display: block;
+    display: inline-block;
     width: 40px;
     height: 40px;
     padding: 0;
@@ -167,7 +168,7 @@ font-style: italic;
 } 
 
 .sprite-guitar {
-    display: block;
+    display: inline-block;
     width: 40px;
     height: 40px;
     padding: 0;
@@ -176,7 +177,7 @@ font-style: italic;
 }
 
 .sprite-mask { 
-    display: block;
+    display: inline-block;
     width: 40px;
     height: 40px;
     padding: 0;
@@ -185,7 +186,7 @@ font-style: italic;
 }
 
 .sprite-controller {
-    display: block;
+    display: inline-block;
     width: 40px;
     height: 40px;
     padding: 0;
@@ -193,7 +194,8 @@ font-style: italic;
     background: url('../images/sprite.png') -120px 0;
 }
 
-.sprite-mic{display: block;
+.sprite-mic{
+    display: inline-block;
     width: 40px;
     height: 40px;
     padding: 0;
@@ -202,7 +204,7 @@ font-style: italic;
 }
 
 .sprite-quill {
-    display: block;
+    display: inline-block;
     width: 40px;
     height: 40px;
     padding: 0;
@@ -211,7 +213,7 @@ font-style: italic;
 }
 
 .sprite-cup{
-    display: block;
+    display: inline-block;
     width: 40px;
     height: 40px;
     padding: 0;
@@ -220,7 +222,7 @@ font-style: italic;
 }
 
 .sprite-utensils {
-    display: block;
+    display: inline-block;
     width: 40px;
     height: 40px;
     padding: 0;
@@ -229,15 +231,16 @@ font-style: italic;
 }
 
 .sprite-milk {
-    display: block;
+    display: inline-block;
     width: 40px;
     height: 40px;
     padding: 0;
     border: none;
     background: url('../images/sprite.png') -320 0;
 }
-.sprite-clydebank {
-    display: block;
+
+.sprite-clydebank-logo {
+    display: inline-block;
     width: 40px;
     height: 40px;
     padding: 0;
@@ -245,8 +248,8 @@ font-style: italic;
     background: url('../images/sprite.png') -360 0;
 }
 
-.sprite-bigcup {
-    display: block;
+.sprite-bigcup-logo {
+    display: inline-block;
     width: 40px;
     height: 40px;
     padding: 0;
