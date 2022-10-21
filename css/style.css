@@ -67,7 +67,7 @@ img { border-style: none; }
     top: 0;
      right: 0;
      left: 0;
-     background-color: rgb(0, 162, 255);
+     background-color: rgb(9, 214, 241);
     text-align: center;
     padding-top: 3px;
     padding-bottom: 3px;
@@ -82,8 +82,8 @@ header {
 
 .title-header .title {
     display: inline-block;
-    color:rgb(241, 224, 203);
-    font-size: 18px;
+    color: rgb(241, 224, 203);
+    font-size: 24px;
 }
 
 .title-header .logo {
