@@ -9,9 +9,9 @@ body {
     font-size: 18px;
     font-family: "Arial", Helvetica, sans-serif;
     margin: 0;
-    color: #000;
+    color: navajowhite;
     background-color: bisque;
-    background-image: url('');
+    background-image: url('../images/Cuppa.jpg');
     background-repeat: no-repeat;
 }
 
@@ -82,7 +82,7 @@ header {
 
 .title-header .title {
     display: inline-block;
-    color: #fff;
+    color:rgb(241, 224, 203);
     font-size: 18px;
 }
 
