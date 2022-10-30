@@ -138,7 +138,7 @@ footer {
     background: rgb(76, 33, 3);
     color: navajowhite;
     padding: 10px;  
-    height: 120px;
+    height: 140px;
 }
 
 footer a { color: cornsilk; }
@@ -358,17 +358,17 @@ footer h2 {
     padding-bottom: 3px;
 }
  
-footer h2 { 
+footer h3 { 
     font-size: 1.4em;
     padding-top: 3px;
-    padding-bottom: 3px;
+    padding-bottom: 5px;
 }
 
 /* reduce size of footer text to avoid awkard wrapping */
-    footer li { font-size: 085em ; }
+    footer li { font-size: 075em ; }
 
     /*  add padding to bottom of footer */
-        footer { padding-bottom: 5px; }
+        footer { padding-bottom: 10px; }
 
 }
     
