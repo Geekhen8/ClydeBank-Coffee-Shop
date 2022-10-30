@@ -13,6 +13,7 @@ body {
     background-color: bisque;
     background-image: url('../images/Cuppa.jpg');
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 main { 
