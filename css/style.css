@@ -154,28 +154,36 @@ footer a { color: cornsilk; }
     float:left;
 }
 
-/* Background-image pan */
+/* Background image pan */
 #coffeehouse {
     background-image: url("../images/CoffeeShopImage.jpg");
     background-size: cover;
     width: 100%;
     height: 350px;
     animation-name: background-pan;
-    animation-duration: 12s;
+    animation-duration: 45s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
 
 @keyframes background-pan {
-    from {
-         background-position: left;
+    0% {
+         background-position: 0% 0%;
     }
-    to { 
-        background-position: right;
+    25% { 
+        background-position: 100% 100%;
+    }
+    50% { 
+        background-position: 100% 0%;
+    }
+    75% { 
+        background-position: 0% 100%;
+    }
+    200% { background-position: 0% 0%;
     }
 }
-/* End Background-image pan */
+/* End Background image pan */
 /* End Home Page Content */
 
 /* Page Content */
